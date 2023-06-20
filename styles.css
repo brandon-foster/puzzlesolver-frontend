@@ -1,0 +1,57 @@
+body {
+    background-color: #303030;
+    color: #eee;
+}
+
+button {
+    width: 100%;
+}
+
+#alert-solvability p:last-of-type {
+    margin-bottom: 0;
+}
+
+#alert-solvability {
+    visibility: hidden;
+}
+
+#lot {
+    height: 168px;
+    width: 168px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #eee;
+}
+
+#stateStringControls {
+    display: none;
+}
+
+#progress-bar {
+    transition: none;
+    /* transition: width .2s ease; */
+}
+
+.square {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #303030;
+    background-color: #e5e5f0;
+    color: #303030;
+    display: inline-block;
+    position: absolute;
+}
+
+.square-text {
+    line-height: 34px;
+}
+
+.highlighted-square {
+    background: #afafaf;
+    color: #fff;
+}
+
+.emoji {
+    font-size: 60px;
+}
